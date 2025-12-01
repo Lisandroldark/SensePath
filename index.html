@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SensePath – Acessibilidade Inteligente</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+  <aside class="sidebar">
+    <h2>SensePath</h2>
+    <p>Modos de acessibilidade</p>
+    <button class="btn" onclick="enableColorBlindMode()">Modo Daltonismo</button>
+    <button class="btn" onclick="enableFocusMode()">Modo Atenção (TDAH)</button>
+    <button class="btn" onclick="enableSimpleRead()">Leitura Simplificada</button>
+    <button class="btn" onclick="resetModes()">Resetar</button>
+  </aside>
+
+  <main class="content">
+    <h1>Bem-vindo ao SensePath</h1>
+    <p>
+      Este é um sistema inteligente de acessibilidade desenvolvido com HTML, CSS e JavaScript.
+      Ele adapta automaticamente a experiência do usuário, facilitando navegação, leitura e foco.
+    </p>
+
+    <h2>Exemplo de conteúdo longo</h2>
+    <p id="longText">
+      A acessibilidade digital é um dos pilares fundamentais da inclusão moderna. 
+      Com o avanço das tecnologias web, é essencial que sites e aplicações ofereçam 
+      interfaces que possam ser utilizadas por todos os tipos de usuários, 
+      independentemente de suas habilidades ou limitações. O SensePath foi criado 
+      justamente para isso: tornar a web acessível de forma automática e inteligente.
+    </p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
